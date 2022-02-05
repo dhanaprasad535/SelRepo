@@ -39,6 +39,7 @@ public class LoginTest extends BaseTest {
     }
 
     @AfterMethod
+    // Hi
     public void testClosure() {
         if(er!=null) {
             er.endTest(logger);
